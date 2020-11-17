@@ -1,0 +1,46 @@
+body {
+	margin: 0;
+}
+
+.container {
+	max-width: vw(1230);
+	margin: 0 auto;
+}
+
+a {
+	display: inline-block;
+	text-decoration: none;
+}
+
+li {
+	list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin: 0;
+}
+ul {
+	padding: 0;
+}
+
+.col-6 {
+	width: 50%;
+}
+.row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.flex {
+	display: flex;
+}
+
+img {
+	max-width: 100%;
+}
