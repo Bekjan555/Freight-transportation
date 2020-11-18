@@ -1,5 +1,31 @@
 @import "../global";
 
 .hero {
-    
+    background: url('../../assets/hero-bg.webp') center no-repeat;
+    height: 100vh;
+    align-items: center;
+    &__box {
+    width: 920px;
+    height: 245px;
+    margin: 0 auto;
+    border: 1px solid $gold;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    &__mouse {
+        
+    }
+}
+
+.box {
+    &__title {
+        @include font($roboto-bold, 64px);
+        line-height: 115px;
+    }
+    &__description {
+        max-width: 777px;
+        font-size: 18px;
+        text-align: center;
+    }
 }
