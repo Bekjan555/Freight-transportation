@@ -1,11 +1,11 @@
-import header from './components/header';
+import Header from './components/header';
 
 const App = () => {
   return (
     <div className="App">
-      <header />
+      <Header />
     </div>
   );
-}
+};
 
 export default App;

@@ -1,5 +1,10 @@
+
+
 body {
 	margin: 0;
+	background-color: $dark;
+	color: white;
+	font-family: $roboto-regular;
 }
 
 .container {
@@ -7,9 +12,14 @@ body {
 	margin: 0 auto;
 }
 
+.title {
+	@include font($roboto-bold, 40px)
+}
+
 a {
 	display: inline-block;
 	text-decoration: none;
+	color: white;
 }
 
 li {

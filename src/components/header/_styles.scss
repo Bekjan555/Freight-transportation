@@ -1,5 +1,48 @@
+@import "../global";
+
 .header {
-    width: 500px;
-    height: 500px;
-    background-color: black;
+    &__top {
+        background-color: $gold;
+        font-size: 12px;
+        &__wrapper {
+            justify-content: space-between;
+            padding: 16px 0;
+        }
+        &__left {
+            justify-content: space-between;
+            width: 100px;
+        }
+        &__language {
+            transition: 0.3s;
+            &:hover {
+                opacity: 0.5;
+            }
+        }
+    }
+    &__bottom {
+        &__left {
+            display: inline-flex;
+            align-items: center;
+            justify-content: space-between;
+            &__text {
+                font-size: 14px;
+            }
+        }
+        &__wrapper {
+            justify-content: space-between;
+            align-items: center;
+            height: 100px;
+        }
+        .nav {
+            &__item {
+                margin-right: 30px; 
+            }
+            &__item:nth-child(4) {
+                margin-right: 0;
+            }
+            &__link {
+                text-transform: uppercase;
+            }
+        }
+    }
 }
