@@ -13,7 +13,9 @@ body {
 }
 
 .title {
-	@include font($roboto-bold, 40px)
+	@include font($roboto-bold, 40px);
+	text-transform:uppercase;
+	
 }
 
 a {

@@ -1,20 +1,25 @@
 @import "../global";
 
 .hero {
-    background: url('../../assets/hero-bg.webp') center no-repeat;
+    background: url("../../assets/hero-bg.webp") center no-repeat;
+    background-size: cover;
     height: 100vh;
     align-items: center;
+    position: relative;
     &__box {
-    width: 920px;
-    height: 245px;
-    margin: 0 auto;
-    border: 1px solid $gold;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+        width: 920px;
+        height: 245px;
+        margin: 0 auto;
+        border: 1px solid $gold;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     &__mouse {
-        
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        transform: translateY(-50%);
     }
 }
 

@@ -1,5 +1,6 @@
 import Header from './components/header';
 import Hero from './components/hero';
+import Transportation from './components/transportation/index.jsx';
 
 
 const App = () => {
@@ -7,6 +8,7 @@ const App = () => {
     <div className="App">
       <Header />
       <Hero />
+      <Transportation />
     </div>
   );
 };
