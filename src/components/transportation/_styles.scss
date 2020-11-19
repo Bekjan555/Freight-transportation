@@ -18,4 +18,37 @@
         background: $gold;
         box-sizing: border-box;
     }
+    &__right {
+        position: relative;
+    }
+    &__arrow {
+        @include font($roboto-medium, 16px);
+        position: absolute;
+        background: transparent;
+        border: none;
+        outline: none;
+        color: $gold;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        display: inline-flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+}
+
+.arrow {
+    &__next {
+        top: 0;
+    }
+    &__prev {
+        bottom: 0;
+    }
+    &__img {
+        &__next {
+            padding-left: 30px;
+        }
+        &__prev {
+            padding-right: 30px;
+        }
+    }
 }
