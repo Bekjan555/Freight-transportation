@@ -15,7 +15,18 @@ body {
 .title {
 	@include font($roboto-bold, 40px);
 	text-transform:uppercase;
-	
+	position: relative;
+	line-height: 49px;
+	letter-spacing: 0.05em;
+	&::before {
+		content: "";
+		position: absolute;
+		width: 90px;
+		height: 6px;
+		top: -40px;
+		left: 0;
+		background-color: $gold;
+	}
 }
 
 a {
@@ -43,6 +54,10 @@ ul {
 
 .col-6 {
 	width: 50%;
+}
+
+.col-3 {
+	width: 30%;
 }
 .row {
 	display: flex;

@@ -7,8 +7,8 @@ const Transportation = () => {
     return (
         <section className="transportation">
             <div className="container">
-                <div className="transportation__content">
-                    <div className="transportation__left">
+                <div className="transportation__content flex">
+                    <div className="transportation__left col-3 row">
                         <h2 className="transportation__title title">
                         грузоперевозки по европе
                         </h2>
@@ -18,6 +18,9 @@ const Transportation = () => {
                         <Link className="transportation__link">
                             ПОДРОБНЕЕ
                         </Link>
+                    </div>
+                    <div className="transportation__right">
+                        <img src={Car1} alt=""/>
                     </div>
                 </div>
             </div>
