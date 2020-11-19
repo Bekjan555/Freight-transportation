@@ -3,6 +3,7 @@ import Hero from './components/hero';
 import Transportation from './components/transportation/index.jsx';
 import Services from './components/services/index.jsx';
 import About from './components/about/index.jsx';
+import Map from './components/map/index.jsx';
 
 
 const App = () => {
@@ -13,6 +14,7 @@ const App = () => {
       <Transportation />
       <Services/>
       <About/>
+      <Map/>
     </div>
   );
 };

@@ -51,9 +51,15 @@ p {
 ul {
 	padding: 0;
 }
+.col-7 {
+	width: 58.88%;
+}
 
 .col-6 {
 	width: 50%;
+}
+.col-5 {
+	width: 41.12%;
 }
 
 .col-3 {
@@ -75,6 +81,5 @@ img {
 .flex-align-center {
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
 }
 
