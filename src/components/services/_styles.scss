@@ -1,1 +1,46 @@
 @import "../global";
+
+.services {
+    margin-top: 160px;
+    &__content {
+        margin-top: 60px;
+    }
+    &__row {
+        justify-content: center;
+    }
+    &__item {
+        background: #393F47;
+        height: 180px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        transition: 0.3s;
+        &:hover {
+            background: $gold;
+        }
+        &:hover .services__img {
+            background: white;
+        }
+        &:hover .services__icon {
+            fill: $dark;
+        }
+    }
+    &__title {
+        @include font($roboto-bold, 18px)
+    }
+    &__img {
+        
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        padding: 20px 20px;
+        box-sizing: border-box;
+    }
+    &__icon {
+        color: white;
+        fill: white;
+    }
+}
+
+
+
