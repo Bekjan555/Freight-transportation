@@ -1,2 +1,14 @@
 @import "../global";
 
+.about {
+    margin-top: 120px;
+    &__description {
+        font-size: 16px;
+        line-height: 23px;
+        max-width: 445px;
+        margin-top: 30px;
+    }
+    &__item {
+        height: 160px;
+    }
+}
