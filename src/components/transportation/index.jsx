@@ -29,7 +29,6 @@ const Transportation = () => {
                 <img className="arrow__img__prev" src={arrowPrev} alt=""/> Назад 
             </button>
           </div>
-          text
         </div>
       </div>
     </section>
