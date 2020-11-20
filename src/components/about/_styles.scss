@@ -17,6 +17,12 @@
         flex-direction: column;
         width: 200px;
     }
+    &__list {
+        max-width: 606px;
+    }
+    &__row {
+        justify-content: space-between;
+    }
 }
 .text {
     &-big {

@@ -20,7 +20,7 @@ const About = () => {
                 веков, но и перешагнул в электронный дизайн.
               </p>
             </div>
-            <div className="col-7 row">
+            <div className="about__list row">
               <div className="about__item flex-align-center">
                 <h3 className="text-big">48</h3>
                 <p className="text-medium">офисов</p>
