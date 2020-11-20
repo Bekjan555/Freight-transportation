@@ -4,6 +4,7 @@ import Transportation from './components/transportation/index.jsx';
 import Services from './components/services/index.jsx';
 import About from './components/about/index.jsx';
 import Map from './components/map/index.jsx';
+import Footer from './components/footer/index.jsx';
 
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
       <Services/>
       <About/>
       <Map/>
+      <Footer/>
     </div>
   );
 };
