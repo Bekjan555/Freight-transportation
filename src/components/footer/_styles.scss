@@ -2,4 +2,20 @@
 
 .footer {
     background: $gold;
+    &__content {
+        justify-content: space-between;
+        padding: 60px 0;
+    }
+    &__link {
+        color: $dark;
+        font-size: 14px;
+        transition: 0.3s;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+    &__connection {
+        flex-direction: column;
+        justify-content: space-between;
+    }
 }
